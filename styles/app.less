@@ -83,7 +83,7 @@ body {
 
 	.resume {
 		margin-bottom: 100px;
-		.workExperience,.skills,.education {
+		.summary,.workExperience,.skill,.education {
 			border-bottom: 2px solid #e83556;
 			padding-bottom: 10px;
 		}
@@ -94,25 +94,24 @@ body {
 		.jobTitle {
 			margin-top: 30px;
 		}
-		.description {
-			&.last {
-				border: none;
-			}
 
-			ul li {
-				line-height: 100%;
-				margin-bottom: 8px;
-				&:last-child {
-					margin-bottom: 0;
-				}
+		.skillEducation {
+			.graduateYear {
+				float: right;
 			}
 		}
-		.education {
-			margin-top: 50px;
+
+		.projectDescription {
+			margin-bottom: 50px;
 		}
+		
 		.headSkill .subSkill:last-child {
 			border-bottom: 1px solid #e83556;
 			padding-bottom: 10px;
+		}
+
+		.year {
+			float: right;
 		}
 	}
 
